@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20%;
+            padding: 10px;
+            
+        }
+       .radius{
+            border-radius: 30px;
+            height: 40px;
+            width: 320px;
+            font-size: large;
+            
+        }
+
+        .radius_search{
+           margin: 10px 0 0 100px;
+            border-radius: 10px;
+            height: 29px;
+            width: 120px;
+            font-size: large;
+            background-color: #4285F4;
+                     
+        }
+        #search_advance{
+            
+            text-align: right;
+        }
+        body{
+            background-color: azure;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="search_advance">
+    <a href="Image_search.html"> Search Image</a>
+    <a href="advance_search.html">Advance Search</a>
+    </div>
+    
+
+    <div id="container">
+    <form action="https://www.google.com/search" method="get">
+       
+       <div> <input class="radius" type="text" name="q" placeholder="Search Google"></div>
+       <div> <input  class="radius_search"type="submit" value="Search"></div>
+        
+        
+      </form>
+    </div>
+</body>
+</html>
